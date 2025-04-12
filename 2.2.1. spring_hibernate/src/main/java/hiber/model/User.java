@@ -1,6 +1,6 @@
 package hiber.model;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 @Entity
 @Table(name = "users")
@@ -18,6 +18,10 @@ public class User {
 
    @Column(name = "email")
    private String email;
+
+   @OneToOne(cascade = CascadeType.ALL)
+   @JoinColumn(name = "car")
+   private Car car;
 
    public User() {}
    
