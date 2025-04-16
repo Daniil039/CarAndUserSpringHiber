@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="44d58f7e-69cb-4fea-a7ed-433c7c344e10" name="Changes" comment="16.04 changed the dependencies of the car and user entities, update the database connection">
-      <changelist_data name="Daniil Grishin" email="daniil.grishin.2015@mail.ru" automatic="false" />
+    <list default="true" id="44d58f7e-69cb-4fea-a7ed-433c7c344e10" name="Changes" comment="add .gitignore">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +125,7 @@
       <workItem from="1744461640463" duration="15614000" />
       <workItem from="1744643271960" duration="6388000" />
       <workItem from="1744710075226" duration="8921000" />
-      <workItem from="1744801584208" duration="5548000" />
+      <workItem from="1744801584208" duration="6547000" />
     </task>
     <task id="LOCAL-00001" summary="Danii;">
       <option name="closed" value="true" />
@@ -159,7 +159,31 @@
       <option name="project" value="LOCAL" />
       <updated>1744809248945</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add .gitignore">
+      <option name="closed" value="true" />
+      <created>1744809951264</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1744809951264</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add .gitignore">
+      <option name="closed" value="true" />
+      <created>1744810042554</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1744810042554</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add .gitignore">
+      <option name="closed" value="true" />
+      <created>1744810066142</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1744810066142</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,7 +204,8 @@
     <MESSAGE value="Danii;" />
     <MESSAGE value="Danii22223134124" />
     <MESSAGE value="16.04 changed the dependencies of the car and user entities, update the database connection" />
-    <option name="LAST_COMMIT_MESSAGE" value="16.04 changed the dependencies of the car and user entities, update the database connection" />
+    <MESSAGE value="add .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add .gitignore" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
