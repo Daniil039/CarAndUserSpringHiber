@@ -2,13 +2,9 @@ package hiber.dao;
 
 import hiber.model.Car;
 import hiber.model.User;
-import jakarta.persistence.Query;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
-
-
-import java.util.List;
 
 @Repository
 public class CarDaoImp implements CarDao {
@@ -21,12 +17,12 @@ public class CarDaoImp implements CarDao {
     }
 
     @Override
-    public void addCar(Car car) {
+    public void add(Car car) {
         sessionFactory.getCurrentSession().save(car);
     }
 
     @Override
-    public User carList(String model, int series) {
+    public User getUserByCarModelAndSeries(String model, int series) {
         String hql = "FROM User u WHERE u.car.model = :model and u.car.series = :series";
         jakarta.persistence.TypedQuery<User> query = sessionFactory.getCurrentSession().createQuery(hql, User.class);
         query.setParameter("model", model);
